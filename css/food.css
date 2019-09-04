@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f5f5;
+}
+.food_box{
+    width: 1000px;
+    height: 729px;
+    /*border: 1px solid black;*/
+    margin: 59px auto 110px;
+    position: relative;
+}
+.ul{
+    list-style: none;
+}
+/*设置li的样式*/
+.li_food{
+    width: 220px;
+    height:356px;
+    text-align: center;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.food_img{
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*设置图片的样式*/
+.food_img img{
+    margin: -100px 0 0 -100px;
+    -webkit-transform: scale(.5);
+    -webkit-transition: 1s;
+}
+.food_img img:hover{
+    -webkit-transform: scale(.6);
+}
+/*设置a标签样式*/
+a{
+    text-decoration: none;
+    transition: all 200ms;
+}
+/*设置食物内容部分的样式*/
+.food_content{
+    padding: 0 10px;
+}
+/*设置食物h5标题的样式*/
+.food_title{
+    color:#404040;
+    width:200px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+/*给标题设置鼠标移入伪类*/
+.food_title:hover{
+    color: #E43939;
+    text-decoration: underline;
+}
+/*设置食物描述部分*/
+.food_desc{
+    font-size:12px;
+    color: #999;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 20px;
+    line-height: 20px;
+}
+/*价格部分样式*/
+.food_price{
+    color:#E43939;
+    text-align: left;
+    height: 36px;
+    line-height: 36px;
+    font-size: 15px;
+}
+/*设置按钮部分样式*/
+.food_btn{
+    color: #000;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #93c47d;
+    transition: all 200ms;
+}
+/*设置按钮部分伪类*/
+.food_btn:hover{
+    color: #fff;
+    background-color: #93c47d;
+}

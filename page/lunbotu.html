@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/lunbotu.css">
+  <link rel="stylesheet" type="text/css" href="../font/iconfont.css">
+  <link rel="stylesheet" href="../css/animate.min.css">
+  <script src="../lib/jquery-1.12.4.js"></script>
+  <script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+    <!--轮播图-->
+    <script>
+        $(function () {
+            // effect 轮播图效果 fold:淡入淡出 || topLoop:上循环滚动 || leftLoop:左循环滚动;
+            $(".slideBox").slide({mainCell: ".bd ul", autoPlay: true, effect: 'fold'});
+        });
+    </script>
+</head>
+<body>
+  <!--轮播图！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！-->
+<div id="slideBox" class="slideBox">
+  <div class="hd">
+      <ul>
+          <li>1</li>
+          <li>2</li>
+      </ul>
+  </div>
+  <div class="bd">
+      <ul>
+          <li><img src="../images/homePage/-1172.png" width=100%/>
+              <div>
+                  <h5>Make with love</h5>
+                  <span>用心做</span>
+                  <p>Green onion,ginger and farlic are</p>
+                  <p>ChineseFavorite flavor of vegetables to say to in a day</p>
+                  <p>Essential in the kitchen</p>
+                  <a href="">OUR MENU</a>
+              </div>
+          </li>
+          <li><img src="../images/homePage/-2028.png"  />
+              <div class="bd-div2">
+                  <h5>美食网站</h5>
+                  <span>五鼎食</span>
+                  <p>食为先</p>
+                  <p>吃遍天下</p>
+                  <p>民以食为天</p>
+                  <p>唯独美食不可辜负</p>
+                  <p>你值得拥有</p>
+              </div>
+          </li>
+      </ul>
+  </div>
+</div>
+</body>
+</html>

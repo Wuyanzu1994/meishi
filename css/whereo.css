@@ -1,0 +1,187 @@
+/*吃货的梦*/
+.hmx-flip p {
+    font-size: 14px;
+    color:  #787d84;
+    line-height: 24px;
+    text-align: center;
+}
+
+.flip-container {
+    margin: 20px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    -webkit-perspective: 500;
+    -moz-perspective: 500;
+    -ms-perspective: 500;
+    perspective: 500;
+    -ms-transform: perspective(500px);
+    -moz-transform: perspective(500px); /*重要*/
+    transform-style: preserve-3d; /*重要*/
+    /*border-radius: 20%;*/
+    /*overflow: hidden;*/
+    /*box-shadow: 0px 0px 2px 10px  rgba(0,0,0,0.6) inset;*/
+}
+.flipper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transition: 0.6s;
+    transform-style: preserve-3d; /*重要*/
+}
+/* 触发翻转 */
+.flip-container:hover .flipper{
+    transform: rotateY(180deg);
+
+}
+.front ,.back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*border-radius: 10px;*/
+    backface-visibility: hidden;  /*重要*/
+    width: 100%;
+    height: 100%;
+}
+.front {
+    transform: rotateY(0deg);
+    z-index: 2;
+    /*border-radius: 10px;*/
+    background: red;
+}
+.back {
+    transform: rotateY(-180deg);
+    background: green;
+}
+
+
+
+
+
+
+
+/*<!--我们的日常-->*/
+.hmx-haochi-left .hmx-haochi-left-jieshao {
+    color: #787d84;
+    font-size: 12px;
+    padding-top: 15px;
+    line-height: 30px;
+
+}
+
+.aaaa {
+    box-shadow: 3px 3px 8px 3px #969896;
+}
+
+.hmx-haochi-left .breakfast {
+    color: #000;
+    font-size: 14px;
+}
+
+.hmx-haochi-fenye {
+    margin-bottom: 30px;
+}
+
+.hmx-haochi-left {
+    width: 320px;
+    height: 450px;
+}
+
+.hmx-haochi {
+    height: 700px;
+}
+
+/*关于*/
+
+.hmx-guanyu {
+    width: 300px;
+    height: 104px;
+    margin: auto;
+    margin-top: 86px;
+    text-align: center;
+    /*background-color: pink;*/
+}
+
+.hmx-guanyu-wo {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.hmx-guanyu-us {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: text;
+    line-height: 40px;
+}
+
+.hmx-guanyu-boder {
+    width: 56px;
+    height: 2px;
+    /*margin-top: 10px;*/
+    margin-bottom: 58px;
+    background-color: #dad6d6;
+}
+
+/*关于结束*/
+
+/*版心*/
+.hmx-banxin {
+    width: 1000px;
+    height: 580px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.hmx-banxin-left {
+    width: 480px;
+    height: 580px;
+    /*display: block;*/
+    position: absolute;
+    left: 0px;
+    padding-top: 25px;
+    /*background-color: #0086b3;*/
+}
+
+.hmx-banxin-left p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #787d84;
+}
+
+.hmx-banxin-left .xian {
+    width: 98px;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #dad6d6;
+}
+
+.hmx-banxin-left span {
+    font-weight: 700;
+    color: #000;
+}
+
+.hmx-banxin-righ {
+    width: 580px;
+    height: 660px;
+    /*overflow: hidden;*/
+    position: absolute;
+    right: 0px;
+    /*border: 1px solid red;*/
+    /*background-color: pink;*/
+}
+
+.hmx-banxin-righ img {
+    width: 430px;
+    height: 444px;
+    padding-left: 210px;
+    padding-top: 25px;
+    -webkit-transform: scale(0.6);
+    -webkit-transition: 1s;
+}
+
+.hmx-banxin-righ img:hover {
+    -webkit-transform: scale(0.8);
+}
+
+

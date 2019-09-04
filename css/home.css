@@ -1,0 +1,625 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.pf {
+    position: fixed;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 轮播图 */
+/* 轮播图背景（居中） */
+.slide-back {
+    margin: 0 auto;
+    width: 1518px;
+    height: 417px;
+    background: red;
+}
+
+/* 轮播图盒子 */
+.slide-center {
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 1518px;
+    height: 417px;
+}
+
+/* 轮播图列表 */
+.slide-list {
+    top: 0;
+    left: 0;
+}
+
+/* 图片盒子 */
+.slide-list .content-box {
+    width: 1920px;
+    height: 417px;
+    z-index: 1;
+}
+
+/* 图片盒子 */
+.slide-center .content-box:nth-child(1) {
+    top: 0;
+    left: 0;
+    /* background-color: #0a0; */
+    background: url('../images/homePage/-1172.png') no-repeat 0 0;
+}
+
+.slide-center .content-box:nth-child(2) {
+    top: 0;
+    left: 1920px;
+    background: url('../images/homePage/-2028.png') no-repeat 0 0;
+}
+
+.slide-center .content-box:nth-child(3) {
+    top: 0;
+    left: 3840px;
+    background: url('../images/homePage/-1172.png') no-repeat 0 0;
+}
+
+/* 小圆点 */
+.w-slide-btn-box {
+    bottom: 15px;
+    left: 748px;
+    width: 40px;
+    height: 15px;
+    z-index: 2;
+}
+
+.w-slide-btn-box .w-slide-btn {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.w-slide-btn.w-slide-btnav {
+    background-color: #fff;
+}
+
+/* 箭头 */
+.arrow-box>div {
+    top: 183px;
+    width: 30px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.arrow-box .arrow-left {
+    left: 20px;
+}
+
+.arrow-box .arrow-right {
+    right: 20px;
+}
+
+.arrow-box i {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 菜单 */
+.menu {
+    margin: 0 auto;
+    width: 1518px;
+    height: 1600px;
+    background-image: url('../images/homePage/-1215.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.food1 {
+    top: 20px;
+    left: -500px;
+}
+
+/* food1 right to 230px */
+.r230 {
+    animation: r230 1s forwards;
+}
+
+@keyframes r230 {
+    0% {
+        left: -500px;
+    }
+
+    100% {
+        left: 230px;
+    }
+}
+
+.text1 {
+    top: 60px;
+    right: 230px;
+    width: 520px;
+    height: 300px;
+    display: none;
+}
+
+/* 厨师 */
+.chef {
+    top: 430px;
+    right: 300px;
+    width: 600px;
+    height: 190px;
+    background: url('../images/homePage/-1212.png') no-repeat 0 70px;
+    background-size: contain;
+}
+
+.chef h3 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    opacity: 0;
+}
+
+.chef [alt="烹调师"] {
+    display: block;
+    width: 0;
+    height: 0;
+    margin: 20px auto;
+    opacity: 0;
+}
+
+.chef span {
+    top: 74px;
+    opacity: 0;
+    font: 24px bold;
+    color: #999999;
+}
+
+.chef .chefName {
+    left: 50px;
+}
+
+.chef .chefLevel {
+    right: 50px;
+}
+
+.menu1 {
+    height: 745px;
+}
+
+/* 分割线 */
+.menu img[alt="The Menu"] {
+    display: block;
+    width: 1030px;
+    margin: 0 auto;
+}
+
+/* 菜单2 */
+.menu2 {
+    margin-top: 20px;
+    height: 740px;
+}
+
+.text2 {
+    top: 800px;
+    left: 230px;
+    width: 500px;
+    height: 330px;
+    /* display: none; */
+}
+
+.text2>img {
+    display: none;
+}
+
+.food2 {
+    top: 870px;
+    right: 230px;
+}
+
+/* 食物背景 */
+.bg1 {
+    top: 1000px;
+    left: 320px;
+    opacity: 0;
+}
+
+.bg2 {
+    top: 1300px;
+    left: 490px;
+    opacity: 0;
+}
+
+/* bg1 down to 1200px */
+.d1200 {
+    animation: d1200 1s forwards;
+}
+
+@keyframes d1200 {
+    0% {
+        top: 1000px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 1200px;
+        opacity: 1;
+    }
+}
+
+/* bg2 up to 1100px */
+.u1100 {
+    animation: u1100 1s forwards;
+}
+
+@keyframes u1100 {
+    0% {
+        top: 1300px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 1100px;
+        opacity: 1;
+    }
+}
+
+.star {
+    top: 1550px;
+    left: 350px;
+}
+
+/* 菜品配料 */
+.caipin {
+    margin: 0 auto;
+    width: 1518px;
+    height: 715px;
+    background-image: url('../images/homePage/-1223.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 1518 715;
+    overflow: hidden;
+}
+
+.caipinbg {
+    bottom: -50px;
+    left: -1000px;
+}
+
+/* caipinbg right to 160px */
+.r160 {
+    animation: r160 1s forwards;
+}
+
+@keyframes r160 {
+    0% {
+        left: -1000px;
+    }
+
+    100% {
+        left: 160px;
+    }
+}
+
+/* 菜品配料介绍 */
+.caipin-info {
+    top: 100px;
+    right: 230px;
+    width: 413px;
+    text-align: right;
+}
+
+.caipin-info .cp-title {
+    font-size: 24px;
+    line-height: 70px;
+    color: #d35400;
+}
+
+.caipin-info p {
+    font-size: 16px;
+    color: #946552;
+    line-height: 1.5;
+}
+
+/* 菜品信息文字介绍 */
+.caipin-info .cp-title {
+    top: 0;
+    right: 0;
+    right: -1000px;
+}
+
+/* cp-title left to 0px */
+.l0-1 {
+    animation: l0-1 0.3s forwards;
+}
+
+@keyframes l0-1 {
+    0% {
+        right: -1000px;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+.caipin-info img[alt="cp-slogan"] {
+    top: 64px;
+    right: 0;
+    right: -1000px;
+}
+
+/* cp-slogan left to 0px */
+.l0-2 {
+    animation: l0-2 0.7s forwards;
+}
+
+@keyframes l0-2 {
+    0% {
+        right: -1000px;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+.description {
+    top: 120px;
+    right: 0;
+    right: -1000px;
+}
+
+/* description left to 0px */
+.l0-3 {
+    animation: l0-3 0.9s forwards;
+}
+
+@keyframes l0-3 {
+    0% {
+        right: -1000px;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+/* 菜谱 */
+.caipu {
+    margin: 0 auto;
+    width: 1518px;
+    height: 950px;
+    /* overflow: hidden; */
+}
+
+.caipu1 {
+    top: 0;
+    left: 0;
+    width: 387px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.caipu1:hover .caipu1 .mask {
+    top: 0;
+}
+
+.caipu1 .mask {
+    top: 320px;
+    left: 0;
+    /* width: 387px; */
+    width: 100%;
+    height: 516px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.caipu1 .mask>span {
+    display: block;
+    width: 150px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 50px auto 0;
+    font-size: 22px
+}
+
+.caipu1 .mask>a {
+    display: block;
+    width: 96px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 50px auto;
+    transition: all 0.3s;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.caipu1 .mask>a:hover {
+    color: #fff;
+    background-color: #444;
+}
+
+.caipu2 {
+    top: 170px;
+    left: 404px;
+}
+
+.caipu3 {
+    top: 170px;
+    right: 0;
+    width: 262px;
+    height: 521px;
+    overflow: hidden;
+}
+
+.caipu4 {
+    top: 540px;
+    left: 0;
+}
+
+.caipu5 {
+    top: 540px;
+    left: 228px;
+}
+
+.caipu6 {
+    top: 540px;
+    left: 456px;
+}
+
+/* 菜谱列表 */
+.caipu-list>a {
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    display: block;
+    width: 264px;
+    height: 90px;
+    transition: all 0.5s;
+}
+
+/* 鼠标移入  阴影效果 */
+.caipu-list>a:hover {
+    box-shadow: 0 8px 20px 0px rgb(179, 169, 169);
+}
+
+.caipu-list>a>.num {
+    margin-top: 24px;
+    margin-left: 30px;
+    font-size: 24px;
+    color: #f39800;
+}
+
+.caipu-list>a>.name {
+    margin-top: 24px;
+    /* margin-left: 30px; */
+    font-size: 20px;
+    color: #434a54;
+}
+
+.caipu-list>a>.engname {
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 16px;
+    color: #444;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* 菜谱列表 各项位置 */
+.cpl-1 {
+    top: 720px;
+    left: 10px;
+}
+
+.cpl-2 {
+    top: 720px;
+    left: 360px;
+}
+
+.cpl-3 {
+    top: 720px;
+    left: 710px;
+}
+
+.cpl-4 {
+    top: 830px;
+    left: 10px;
+}
+
+.cpl-5 {
+    top: 830px;
+    left: 360px;
+}
+
+.cpl-6 {
+    top: 830px;
+    left: 710px;
+}
+
+/* 关于我们 */
+.about {
+    height: 420px;
+    background-color: #7fc882;
+    overflow: hidden;
+}
+
+.about .about-bg {
+    top: 0;
+    right: 0;
+}
+
+.about-text {
+    top: 50px;
+    left: -1000px;
+    opacity: 0;
+}
+
+/* about-text right to 34px */
+.r34 {
+    animation: r34 1s forwards;
+}
+
+@keyframes r34 {
+    0% {
+        left: -1000px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 34px;
+        opacity: 1;
+    }
+}
+
+.about-text h3,
+p {
+    color: #fff;
+}
+
+.about-text h3 {
+    font-size: 24px;
+    line-height: 80px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about-more {
+    top: 310px;
+    left: 34px;
+    display: block;
+    width: 126px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    transition: all 0.3s;
+    font-size: 14px;
+    color: #fff;
+    background-color: #3f7c40;
+}
+
+.about-more:hover {
+    background-color: #444;
+}

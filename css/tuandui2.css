@@ -1,0 +1,61 @@
+
+.team-show .team-show2-title{
+    margin-top: 200px;
+}
+
+.team-show .team-show2-title .team-show-teamshou{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.team-show .team-show2-title .team-show-teamshou2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+}
+.team-show .team-show2-title .team-show-line{
+    width: 68px;
+    border-bottom: 3px solid #aaaaaa;
+    margin: 10px auto;
+}
+
+
+
+
+.team-show .team-show2-container {
+    height: 200px;
+    margin-top: 42px;
+    /*position: relative;*/
+}
+.team-show .team-show2-container img{
+    margin:0 20px;
+    /*width: 130px;*/
+    /*height: 260px;*/
+}
+
+
+
+
+/*工作环境*/
+body {background-color:#CCC;}
+.flex {position:relative;width:850px;min-height:300px;margin:0 auto;border:0px solid red;margin-top:70px;}
+.flex a {background-color:white;display:block;width:100px;height:100px;border-radius:8px;position:absolute;background-repeat:no-repeat;background-position:center;border:3px solid white;cursor:pointer;text-align:left;text-shadow:1px 1px 20px #000;color:white;font-size:18px;font-weight:bold;text-indent:10px;line-height:30px;text-decoration:none;}
+[bg=a] {background-image:url(../images/images/2.jpg);}
+[bg=b] {background-image:url(../images/images/1.jpg);background-size:300px auto;}
+[bg=c] {background-image:url(../images/images/6.jpg);}
+[bg=d] {background-image:url(../images/images/3.jpg);}
+[bg=e] {background-image:url(../images/images/4.jpg);background-size:auto 280px;}
+[bg=f] {background-image:url(../images/images/5.jpg);background-size:auto 280px;}
+[bg=g] {background-image:url(../images/images/7.jpg);background-size:auto 200px;}
+[bg=h] {background-image:url(../images/images/13.jpg);}
+[bg=i] {background-image:url(../images/images/9.jpg);background-size:auto 200px;}
+[bg=j] {background-image:url(../images/images/10.jpg);background-size:auto 280px;}
+[bg=k] {background-image:url(../images/images/12.jpg);background-size:auto 280px;}
+.flex h1, h3 {width:850px;font-weight:normal;margin:0 auto;}
+.flex h1 {margin-top:100px;}
+.flex h3 {color:#666;margin-top:5px;}
+.flex p {width:850px;margin:0;padding:0;margin:0 auto;font-size:14px;color:black;margin-top:0px;margin-bottom:20px;color:#989898;}
+.flex #buttons {height:75px;width:850px;margin:0 auto;margin-top:10px;}
+.flex #buttons a {float:left}
+.marginleft {margin-left:25px;}

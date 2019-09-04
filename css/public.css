@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 还要清除h标签的默认的样式 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+/* 清除浮动用的class */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    /* 剩下两个是为了兼容- 低版本的浏览器用起来也要没有问题 */
+    height: 0;    
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', 'Microsoft Yahei', \5b8b\4f53, sans-serif;
+    line-height: 18px;
+}
+li {
+    list-style: none;
+}
+/*解决图片底册有空白缝隙*/
+img {
+    vertical-align: top;
+}
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+em,
+i {
+    font-style: normal!important;
+}
+input, 
+button {
+    outline: none;
+    border: 0;
+}
+/* 这就是我们提前准备好的版心的类 */
+.w {
+    width: 1000px;
+    margin:0 auto;
+}

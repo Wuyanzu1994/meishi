@@ -1,0 +1,104 @@
+.gzq-footer {
+    /* margin-top: 100px; */
+    background: #2f2f30;
+    /*display: none;*/
+    /*position: absolute;*/
+    opacity: 0;
+    /*width: 2000px;*/
+}
+.gzq-footer .gzq-footer-banxin{
+    width: 1000px;
+    height: 375px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gzq-footer .gzq-footer-dl{
+    float: left;
+    padding-top: 100px;
+}
+.gzq-footer .gzq-footer-dl dl{
+    width: 120px;
+    height: 120px;
+    padding-right: 50px;
+    color: white;
+    float: left;
+}
+.gzq-footer-dl dl dt{
+    font-size: 22px;
+    line-height: 32px;
+}
+.gzq-footer-dl dl dd{
+    /*color: white;*/
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.gzq-footer-dl dl dd:hover{
+    color: orange;
+}
+
+
+.gzq-footer-right{
+    float: right;
+    margin-left: 20px;
+
+}
+.gzq-footer-right .gzq-footer-erweima{
+    float: left;
+    padding-top: 80px;
+}
+.gzq-footer-right .gzq-footer-erweima p{
+    color: white;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+}
+.gzq-footer-right .gzq-footer-line{
+    border-left: 3px solid #d2b543;
+    height: 200px;
+    margin-left: 36px;
+    margin-top: 60px;
+    float: left;
+}
+
+.gzq-footer-right .gzq-footer-phone{
+    float: left;
+    color: #d2b543;
+    /*width: 350px;*/
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+.gzq-footer-right .gzq-footer-phone span{
+    display: block;
+}
+.gzq-footer-right .gzq-footer-phone .gzq-footer-phonenumber{
+    font-size: 30px;
+}
+.gzq-footer-right .gzq-footer-phone .gzq-footer-phonenumber a{
+    color: #d2b543;
+}
+.gzq-footer-right .gzq-footer-phone .gzq-footer-phonetime{
+    border: 2px #d2b543 solid;
+    border-radius: 50px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.gzq-footer .gzq-footer-banquan{
+    color: #dddddd;
+    font-size: 16px;
+    position: absolute;
+   bottom: 30px;
+    left: 350px;
+
+}
+.gzq-footer .gzq-footer-banquan a{
+    color: #dddddd;
+}
+.gzq-footer .gzq-footer-banquan span{
+    margin-left: 20px;
+}

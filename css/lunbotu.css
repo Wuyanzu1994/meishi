@@ -1,0 +1,167 @@
+/* css 重置 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    /*font: normal 12px/22px 宋体;*/
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* 本例子css */
+.slideBox {
+    width: 1520px;
+    height: 460px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ddd;
+    font: normal 12px/22px 宋体;
+}
+
+.slideBox .hd {
+    height: 20px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.slideBox .hd ul {
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+
+.slideBox .hd ul li {
+    float: left;
+    border-radius: 50%;
+    margin: 0 3px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+}
+
+.slideBox .hd ul li.on {
+    background: yellowgreen;
+    color: #fff;
+}
+
+.slideBox .bd {
+    position: relative;
+    height: 100%;
+    z-index: 0;
+}
+
+.slideBox .bd li {
+    zoom: 1;
+    vertical-align: middle;
+    position: relative;
+}
+
+.slideBox .bd img {
+    width: 1520px;
+    height: 460px;
+    display: block;
+}
+
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.slideBox .prev,
+.slideBox .next {
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    margin-top: -25px;
+    display: block;
+    width: 32px;
+    height: 40px;
+    background: url(../images/slider-arrow.png) -110px 5px no-repeat;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.slideBox .next {
+    left: auto;
+    right: 3%;
+    background-position: 8px 5px;
+}
+
+.slideBox .prev:hover,
+.slideBox .next:hover {
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.slideBox .prevStop {
+    display: none;
+}
+
+.slideBox .nextStop {
+    display: none;
+}
+
+.slideBox .bd li div{
+    position: absolute;
+
+    width: 560px;
+    height: 280px;
+    background: rgba(0,0,0,0.2);
+    left: 50%;
+    top: 50%;
+    margin: -140px  -280px ;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.slideBox .bd li h5{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.slideBox .bd li span{
+    width: 100px;
+    margin: 0 auto;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 2px solid white;
+}
+.slideBox .bd li p{
+    text-align: center;
+    padding-top: 6px;
+    font-size: 18px;
+}
+.slideBox .bd li a{
+    display: block;
+    background: #999;
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 26px;
+}
+.slideBox .bd li a:hover{
+    color:  black;
+    background:white;
+}
+.slideBox .bd li .bd-div2{
+
+}

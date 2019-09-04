@@ -1,0 +1,88 @@
+/*头部100%宽栏*/
+.top{
+    background-color: #fff;
+}
+/*头部板心*/
+.zyq-top{
+    height: 70px;
+    padding-top: 34px;
+}
+/*头部导航栏*/
+.top-nav>ul{
+    padding-top: 7px;
+    margin-left: 33px;
+}
+.top-nav>ul>li{
+    float: left;
+}
+.top-nav>ul>li>a{
+    display: inline-block;
+    padding: 0 7px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+.top-nav>ul>li>a:hover{
+    color: #fff;
+    background-color: #14c184;
+}
+/*头部搜索框*/
+.top-search{
+    margin-left: 217px;
+    padding-top: 9px;
+    position: relative;
+}
+.topTxt{
+    width: 145px;
+    height: 30px;
+    border: 1px solid #999999;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-radius: 15px;
+    font-size: 12px;
+    color:#999;
+    position: relative;
+}
+.top-search>span{
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    width: 40px;
+    height: 30px;
+    border: 1px solid #999999;
+    border-left: none;
+    border-radius: 0 15px 15px 0;
+    top: 9px;
+    right: 0px;
+}
+.top-search>span:hover{
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+}
+/*头部购物车栏*/
+.top-shop{
+    margin-left: 20px;
+    width: 40px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 9px;
+    color: red;
+    position: relative;
+    cursor: pointer;
+}
+.top-shop>i{
+    color: red;
+}
+.top-shop>span{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+}
+.top-shop:hover{
+    color: darkred;
+}

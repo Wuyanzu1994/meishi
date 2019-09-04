@@ -1,0 +1,189 @@
+/*  联系我们  部分*/
+.zyq-fs{
+    text-align: center;
+}
+.zyq-contact{
+    display: inline-block;
+}
+.zyq-contact>p{
+    margin-top: 29px;
+    font-size: 18px;
+    line-height: 32px;
+    height: 32px;
+    position: relative;
+}
+.zyq-contact>p::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid #dddddd;
+    width: 68px;
+    position: absolute;
+    bottom: -47px;
+    left: 14px;
+}
+.zyq-contact>span{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: bold;
+}
+/* 地图和地址 部分*/
+.zyq-next{
+    margin-top: 106px;
+}
+/*地图部分*/
+.zyq-map{
+    width: 432px;
+    height: 290px;
+    position: relative;
+    overflow: hidden;
+}
+.zyq-map .zyq-map-nav{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.zyq-map .zyq-map-nav li{
+    float:left;
+    border: 1px solid #8ea8e0;
+    margin-left: -1px;
+}
+.zyq-map-nav li a{
+    display: inline-block;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 0 8px;
+}
+/*地址部分*/
+.zyq-address{
+    height: 290px;
+    padding-left: 86px;
+    position: relative;
+}
+.zyq-address ul{
+    float: left;
+    padding-left: 12px;
+}
+.zyq-address li a{
+    line-height: 30px;
+    font-size: 12px;
+}
+.zyq-address>span{
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    bottom: 0px;
+    left: 86px;
+}
+/*登录部分*/
+.zyq-enter{
+    position:fixed;
+    background-color: rgba(0,0,0,.3);
+    bottom: 0;
+    left: -100%;
+    width:100%;
+    height: 200px;
+}
+.zyq-enter-close{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    right: -40px;
+    text-align: center;
+    cursor: pointer;
+}
+.zyq-denglu{
+    width: 460px;
+    height: 160px;
+    background-color:rgba(255,255,255,.3);
+    border:1px solid #000;
+    margin: 0 auto;
+    position: relative;
+    padding: 40px 20px;
+}
+.zyq-denglu-left{
+    padding-left: 40px;
+    width: 260px;
+    height: 116px;
+    position: absolute;
+}
+.zyq-denglu-txt,.zyq-denglu-password{
+    padding-left: 10px;
+    width: 198px;
+    height: 20px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+.zyq-denglu-zhuce{
+    position: absolute;
+    bottom: 0px;
+    left: 45px;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.zyq-denglu-enter{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0px;
+    left:100px;
+    cursor: pointer;
+}
+.zyq-denglu-right{
+    padding-right: 40px;
+}
+.zyq-tishi{
+    position: fixed;
+    bottom: 50px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 50px 50px 0;
+    background-color:rgba(0,0,0,.5);
+    left: 0%;
+    color: #fff;
+}
+.zyq-tishi span{
+    float: right;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 50% 50% 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 100px;
+    background-color: rgba(0,0,0,.3);
+    cursor: pointer;
+}
+.zyq-denglu a{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    color: #333;
+
+}
+.zyq-denglu a:hover{
+    text-decoration: underline;
+    color: #0086b3;
+}
+/*地图部分*/
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "微软雅黑";
+}
+
+#allmap {
+    height: 500px;
+    width: 100%;
+}
+
+#r-result, #r-result table {
+    width: 100%;
+}

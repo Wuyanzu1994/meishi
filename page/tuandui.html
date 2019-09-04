@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>团队展示</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/top.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/tuandui.css">
+    <link rel="stylesheet" href="../css/tuandui2.css">
+    <link rel="stylesheet" href="../css/lunbotu.css">
+    <link rel="stylesheet" type="text/css" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <script src="../lib/jquery-1.12.4.min.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/tuandui.js"></script>
+    <script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="../js/jquery-bigSlider.js"></script>
+
+</head>
+<style>
+    body{
+        background: #f5f5f5;
+    }
+</style>
+
+<script>
+    // 海贼轮播图
+    window.onload=function(){
+        jQuery('.team-show2-container').bigSlider({
+            focusType: 'enlarge'
+        });
+    }
+</script>
+<script>
+    $(function () {
+        // effect 轮播图效果 fold:淡入淡出 || topLoop:上循环滚动 || leftLoop:左循环滚动;
+        $(".slideBox").slide({mainCell: ".bd ul", autoPlay: true, effect: 'leftLoop'});
+    });
+</script>
+<body>
+<!--顶部-->
+<div class="top">
+    <!--顶部板心-->
+    <div class="zyq-top w">
+        <!--顶部logo-->
+        <div class="zyq-logo fl">
+            <img src="../images/logo.png" alt="">
+        </div>
+        <!--顶部导航栏-->
+        <div class="top-nav clearfix fl">
+            <ul class="clearfix">
+                <li><a href="../lh-home.html">首页</a></li>
+                <li><a href="whereof.html">关于我们</a></li>
+                <li><a href="hcy-gsxw.html">公司新闻</a></li>
+                <li><a href="food.html">产品展示</a></li>
+                <li><a href="tuandui.html">团队展示</a></li>
+                <li><a href="zyq-lxwm.html">联系我们</a></li>
+            </ul>
+        </div>
+        <!--顶部搜索框-->
+        <div class="top-search fl clearfix">
+            <input type="text" value="请输入关键词" id="topTxt" class="topTxt">
+            <span id="topBtn"><i class="iconfont icon-sousuo"></i></span>
+        </div>
+        <!--购物车部分-->
+        <div class="top-shop fl">
+            <i class="iconfont icon-gouwuche"></i>
+            <span>0</span>
+        </div>
+    </div>
+</div> 
+<!--轮播图-->
+<div id="slideBox" class="slideBox">
+    <div class="hd">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+        </ul>
+    </div>
+    <div class="bd">
+        <ul>
+            <li><img src="../images/homePage/-1172.png" width="1920px"/>
+                <div>
+                    <h5>Make with love</h5>
+                    <span>用心做</span>
+                    <p>Green onion,ginger and farlic are</p>
+                    <p>ChineseFavorite flavor of vegetables to say to in a day</p>
+                    <p>Essential in the kitchen</p>
+                    <a href="">OUR MENU</a>
+                </div>
+            </li>
+            <li><img src="../images/homePage/-2028.png"  />
+                <div class="bd-div2">
+                    <h5>美食网站</h5>
+                    <span>五鼎食</span>
+                    <p>食为先</p>
+                    <p>吃遍天下</p>
+                    <p>民以食为天</p>
+                    <p>唯独美食不可辜负</p>
+                    <p>你值得拥有</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 团队展示 -->
+<div class="team-show">
+    <div class="team-show-title">
+        <div class="team-show-teamshou">团队展示</div>
+        <div class="team-show-teamshou2">Our team</div>
+        <div class="team-show-line"></div>
+    </div>
+    <div class="team-show-biaoge">
+        <ul>
+            <li>
+                <img src="../images/-1512.png" width="220" height="250" alt="">
+                <div class="team-show-text">
+                    <h5>川菜大师：原一</h5>
+                    <p>国家一级厨师，擅长川菜</p>
+                </div>
+            </li>
+            <li>
+                <img src="../images/-1508.png" width="220" height="250" alt="">
+                <div class="team-show-text">
+                    <h5>湘菜大师：丽丽</h5>
+                    <p>国家一级厨师</p>
+                </div>
+            </li>
+            <li>
+                <img src="../images/-1509.png" width="220" height="250" alt="">
+                <div class="team-show-text">
+                    <h5>法国厨师：罗伯特</h5>
+                    <p>一级厨师，擅长法式甜点，蛋糕制作</p>
+                </div>
+            </li>
+            <li>
+                <img src="../images/-1510.png" width="220" height="250" alt="">
+                <div class="team-show-text">
+                    <h5>一级厨师：原一</h5>
+                    <p>一级厨师，擅长西式甜点，蛋糕制作</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="team-show2-title">
+        <div class="team-show-teamshou">真-团队展示</div>
+        <div class="team-show-teamshou2">Our team</div>
+        <div class="team-show-line"></div>
+        <div class='team-show2-container'>
+            <img src="../images/images2/1.png"/>
+            <img src="../images/images2/2.png"/>
+            <img src="../images/images2/3.png"/>
+            <img src="../images/images2/4.png"/>
+            <img src="../images/images2/5.png"/>
+            <img src="../images/images2/6.png"/>
+        </div>
+    </div>
+    <script src="../js/jquery.flex.js"></script>
+    <script>
+        $(function() {
+            $(".flex").flex();
+        });
+    </script>
+    <!--工作环境-->
+    <div class="team-show2-title">
+        <div class="team-show-teamshou">美食鉴赏</div>
+        <div class="team-show-teamshou2">Food appreciation</div>
+        <div class="team-show-line"></div>
+        <div class="flex">
+            <a bg="a" style="left:0px;top:0px;width:250px;height:125px;" width="350" height="275">A</a>
+            <a bg="b" style="left:260px;height:100px;top:0px;width:125px;" width="250" height="175">B</a>
+            <a bg="c" style="left:395px;height:250px;top:0px;width:75px;" width="125" height="350">C</a>
+            <a bg="d" style="left:480px;height:75px;top:0px;width:75px;" width="175" height="150">D</a>
+            <a bg="e" style="left:565px;height:125px;top:0px;width:200px;" width="200" height="250">E</a>
+            <a bg="f" style="left:480px;height:200px;top:85px;width:75px;" width="150" height="225">F</a>
+            <a bg="g" style="left:0px;height:100px;top:135px;width:75px;" width="225" height="150">G</a>
+            <a bg="h" style="left:260px;height:75px;top:110px;width:125px;" width="200" height="200">H</a>
+            <a bg="i" style="left:85px;height:140px;top:135px;width:165px;" width="250" height="140">I</a>
+            <a bg="j" style="left:565px;height:150px;top:135px;width:75px;" width="125" height="275">J</a>
+            <a bg="k" style="left:650px;height:75px;top:135px;width:75px;" width="75" height="200">K</a>
+        </div>
+</div>
+</div>
+<!--尾部-->
+<div class="gzq-footer clearfix">
+    <div class="gzq-footer-banxin">
+        <div class="gzq-footer-dl">
+            <dl>
+                <dt>帮助中心</dt>
+                <dd>订餐指南</dd>
+                <dd>配送方式</dd>
+                <dd>支付方式</dd>
+            </dl>
+            <dl>
+                <dt>服务支持</dt>
+                <dd>售后反馈</dd>
+                <dd>意见反馈</dd>
+                <dd>手机版</dd>
+            </dl>
+            <dl>
+                <dt>关于我们</dt>
+                <dd>了解我们</dd>
+                <dd>联系我们</dd>
+                <dd>管理后台</dd>
+            </dl>
+        </div>
+        <div class="gzq-footer-right" >
+            <div class="gzq-footer-erweima"><p> 扫码有惊喜</p><img src="../images/erweima.png" alt=""></div>
+            <div class="gzq-footer-line"></div>
+            <div class="gzq-footer-phone">
+                <span class="gzq-footer-phonenumber"><a href="">400-xxx-0000</a></span>
+                <span class="gzq-footer-phonetime">24小时在线</span>
+            </div>
+        </div>
+        <div class="gzq-footer-banquan">
+            <span>版权所有:<a href="">**有限公司</a></span>
+            <span>备案号:<a href="">1311</a></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
